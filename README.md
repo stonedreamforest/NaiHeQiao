@@ -41,12 +41,9 @@
 
 
 
-
-
-
-
-
-
+# 截图
+飘云OD示例
+![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/py_od.gif)
 
 
 
