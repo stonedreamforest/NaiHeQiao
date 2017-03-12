@@ -48,6 +48,10 @@
 吾爱OD示例
 ![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/wa_od.gif)
 
+x64dbg未使用NHQ插件
+![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/x64dbg_sy.gif)
+
+
 ＃什么时候需要使用到NHQ？
 当内置调试引擎未能处理调试信号时
 
