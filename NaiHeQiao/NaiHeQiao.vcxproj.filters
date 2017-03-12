@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="plugin_library">
+      <UniqueIdentifier>{395cc3b7-88fe-4a9c-a906-9007828f9f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin_header">
+      <UniqueIdentifier>{d9ff0626-0fda-448d-83f1-d421147a4db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{1dba7e52-7175-432a-ab3c-8b237e12f603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nhq">
+      <UniqueIdentifier>{8f6393ee-310a-4261-aec6-f2d7ab30e7bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pluginsdk\_dbgfunctions.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugin_types.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugins.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_argument.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_assembler.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_bookmark.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_debug.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_comment.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_flag.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_function.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_gui.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_label.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_memory.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_misc.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_module.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_pattern.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_register.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_stack.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_symbol.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgegraph.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgelist.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgemain.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\arm.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\arm64.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\capstone.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\m68k.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\mips.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\platform.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\ppc.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\sparc.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\systemz.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\x86.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\capstone\xcore.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\dbghelp\dbghelp.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\DeviceNameResolver\DeviceNameResolver.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_config.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_x64dbg.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4file.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4hc.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\TitanEngine\TitanEngine.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\XEDParse\XEDParse.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\ahocorasick.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\arena.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\atoms.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\compiler.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\elf.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\error.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\exec.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\exefiles.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\filemap.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\globals.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\hash.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\hex_lexer.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\integers.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\lexer.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\libyara.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\limits.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\mem.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\modules.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\object.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\parser.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\pe.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\proc.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\re.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\re_lexer.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\rules.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\scan.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\sizedstr.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\stream.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\strutils.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\threading.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\types.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\yara\yara\utils.h">
+      <Filter>plugin_header</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="naiheqiao\nhq_server.h">
+      <Filter>nhq</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\nuklear.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="naiheqiao\nhq_data.h">
+      <Filter>nhq</Filter>
+    </ClInclude>
+    <ClInclude Include="naiheqiao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="pluginsdk\x64dbg.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\x32bridge.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\x32dbg.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\x64bridge.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x64.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x86.a">
+      <Filter>plugin_header</Filter>
+    </Library>
+    <Library Include="pluginsdk\capstone\capstone_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\capstone\capstone_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\yara\yara_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\yara\yara_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.lib">
+      <Filter>plugin_library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="naiheqiao\nhq_server.cpp">
+      <Filter>nhq</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="naiheqiao\nhq_data.cpp">
+      <Filter>nhq</Filter>
+    </ClCompile>
+    <ClCompile Include="naiheqiao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
