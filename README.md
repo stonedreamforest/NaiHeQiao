@@ -44,7 +44,7 @@ PS：初始版本 step over step into run 功能完善 建议手动F2设置断�
 
 
 # 下载链接
-https://github.com/stonedreamforest/NaiHeQiao/releases/tag/2017-3-12
+https://github.com/stonedreamforest/NaiHeQiao/releases
 
 
 
