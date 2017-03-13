@@ -22,7 +22,8 @@ std::vector<duint> GetAddresses(duint start , duint count){
 void nhq_recv_data(char *context){
 	if(g_SR_count % 2 == 0){
 		memcpy(&g_context , context , sizeof(CONTEXT));
-		ButtonAction.setp_over = false;
+		nhq_step_over(g_context._IP);
+		//ButtonAction.setp_over = false;
 	}
 	g_SR_count++;
 }

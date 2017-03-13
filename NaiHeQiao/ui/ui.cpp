@@ -78,17 +78,13 @@ void gui_display(nk_context *ctx){
 
 	nk_layout_row_static(ctx , 20 , 90 , 4);
 
-	//nk_button_color(ctx , clr);
-	if(nk_button_label(ctx , "step over")){
-		nhq_step_over(g_context._IP);
-		ButtonAction.setp_over = true;
-	}
+
 	if(nk_button_label(ctx , "step into")){
-		MessageBox(0 , "step into" , 0 , 0);
+		MessageBox(0 , "等待开发" , 0 , 0);
 	}
 	if(nk_button_label(ctx , "run")){
 		//DeleteBreakpoint(g_context._IP);
-		MessageBox(0 , "run" , 0 , 0);
+		MessageBox(0 , "等待开发" , 0 , 0);
 	}
 
 	if(nk_button_label(ctx , "inject dll")){

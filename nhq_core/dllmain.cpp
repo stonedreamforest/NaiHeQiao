@@ -22,7 +22,7 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 	char recvbuf[DEFAULT_BUFLEN];
 	int recvbuflen = DEFAULT_BUFLEN;
 	while(1){
-		MessageBoxA(0 , "发送消息" , 0 , 0);
+		
 		iResult = send(nhq_client.ConnectSocket , (char *)ExceptionInfo->ContextRecord , sizeof(CONTEXT) , 0);
 		if(iResult == SOCKET_ERROR){
 			MessageBoxA(0 , "client: send failed with error" , 0 , 0);
@@ -30,31 +30,8 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 			WSACleanup();
 			return 1;
 		}
-		do{
-			iResult = recv(nhq_client.ConnectSocket , recvbuf , recvbuflen , 0);
-			if(iResult > 0){
-				//MessageBoxA(0 , "EXCEPTION_CONTINUE_EXECUTION" , 0 , 0);
-				return EXCEPTION_CONTINUE_EXECUTION;
-				/*if(strcmp(STEP_OVER , recvbuf) == 0){
-					return EXCEPTION_CONTINUE_EXECUTION;
-				}
-				else if(strcmp(STEP_INTO , recvbuf) == 0){
-					return EXCEPTION_CONTINUE_EXECUTION;
-				}
-				else if(strcmp(RUN , recvbuf) == 0){
-					return EXCEPTION_CONTINUE_EXECUTION;
-				}
-				else{
-					MessageBoxA(0 , "error action" , 0 , 0);
-				}*/
-			}
-			else if(iResult == 0){
-				MessageBoxA(0 , "client: Connection closed" , 0 , 0);
-			}
-			else{
-				MessageBoxA(0 , "client: recv failed with error" , 0 , 0);
-			}
-		} while(iResult > 0);
+		MessageBoxA(0 , "单步" , 0 , 0);
+		return EXCEPTION_CONTINUE_EXECUTION;
 	}
 	return EXCEPTION_CONTINUE_EXECUTION;
 }

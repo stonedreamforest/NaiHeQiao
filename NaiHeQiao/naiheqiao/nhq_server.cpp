@@ -102,25 +102,8 @@ bool init_NHQ_server(){
 	do{
 		iResult = recv(ClientSocket , recvbuf , recvbuflen , 0);
 		nhq_recv_data(recvbuf);
-
 		if(iResult > 0){
-			while(true){
-				if(ButtonAction.setp_over){
-					break;
-				}
-			}
-			//if(g_SR_count % 2 == 0){
-			//	ButtonAction.setp_over = false;
-			//}
-			// Echo the buffer back to the sender
-			iSendResult = send(ClientSocket , recvbuf , iResult , 0);
-			memset(recvbuf , 0 , DEFAULT_BUFLEN);
-			if(iSendResult == SOCKET_ERROR){
-				MessageBoxA(0 , "send failed with error" , 0 , 0);
-				closesocket(ClientSocket);
-				WSACleanup();
-				return 1;
-			}
+			//....µÈ´ý¿ª·¢
 		}
 		else if(iResult == 0){
 			MessageBoxA(0 , "Connection closing..." , 0 , 0);
