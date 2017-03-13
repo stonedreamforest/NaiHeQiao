@@ -26,8 +26,7 @@
 
 菜单 -> 插件 -> NaiHeQiao -> enjoy it -> inject dll
 
-
-
+ - 断点 -> 回车messagebox进行单步调试  
 
 
 # 调试器对比
@@ -58,7 +57,7 @@ x64dbg使用NHQ插件
 # 什么时候需要使用到NHQ？
 当内置调试引擎未能处理调试信号时
 
-PS：初始版本 - 回车messagebox进行单步调试  
+
 
 # 功能演示
 ![screenshot1](https://github.com/stonedreamforest/misc/blob/master/bhq_step_over.gif)
