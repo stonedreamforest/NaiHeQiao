@@ -32,19 +32,19 @@
 
 # 调试器对比
 飘云OD示例 (内置主流防反调试插件)
-![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/py_od.gif)
+![screenshot1](https://github.com/stonedreamforest/misc/blob/master/py_od.gif)
 
 吾爱OD示例 (内置主流防反调试插件)
-![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/wa_od.gif)
+![screenshot1](https://github.com/stonedreamforest/misc/blob/master/wa_od.gif)
 
 ida示例 
 ![screenshot1](https://github.com/stonedreamforest/misc/blob/master/ida.gif)
 
 x64dbg未使用NHQ插件 (内置ScyllaHide)
-![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/x64dbg_sy.gif)
+![screenshot1](https://github.com/stonedreamforest/misc/blob/master/x64dbg_sy.gif)
 
 x64dbg使用NHQ插件
-![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/x64dbg_nhq.gif)
+![screenshot1](https://github.com/stonedreamforest/misc/blob/master/x64dbg_nhq.gif)
 
 
 
