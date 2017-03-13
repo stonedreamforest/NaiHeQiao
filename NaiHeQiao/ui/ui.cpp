@@ -76,7 +76,7 @@ void gui_display(nk_context *ctx){
 	nk_layout_row_dynamic(ctx , 200 , 50);
 #endif // _WIN64
 
-	nk_layout_row_static(ctx , 20 , 90 , 4);
+	nk_layout_row_static(ctx , 20 , 90 , 3);
 
 
 	if(nk_button_label(ctx , "step into")){
