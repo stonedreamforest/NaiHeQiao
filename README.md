@@ -32,7 +32,7 @@
 
 
 
-# 动画
+# 调试器对比
 飘云OD示例
 ![screenshot1](https://github.com/stonedreamforest/NaiHeQiao/blob/master/py_od.gif)
 
@@ -59,8 +59,8 @@ x64dbg使用NHQ插件
 
 PS：初始版本 - 回车messagebox进行单步调试  
 
-
-
+# 功能演示
+![screenshot1](https://github.com/stonedreamforest/misc/blob/master/bhq_step_over.gif)
 
 # 下载链接
 https://github.com/stonedreamforest/NaiHeQiao/releases
