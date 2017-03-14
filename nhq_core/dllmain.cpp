@@ -38,7 +38,7 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 
 DWORD WINAPI ThreadFunc(VOID){
 	init_NHQ_client();
-	AddVectoredExceptionHandler(0 , veh);
+	AddVectoredExceptionHandler(1 , veh);
 	return 0;
 }
 
