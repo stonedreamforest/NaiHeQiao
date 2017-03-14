@@ -22,7 +22,7 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 	char recvbuf[DEFAULT_BUFLEN];
 	int recvbuflen = DEFAULT_BUFLEN;
 	while(1){
-		
+
 		iResult = send(nhq_client.ConnectSocket , (char *)ExceptionInfo->ContextRecord , sizeof(CONTEXT) , 0);
 		if(iResult == SOCKET_ERROR){
 			MessageBoxA(0 , "client: send failed with error" , 0 , 0);
@@ -30,7 +30,7 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 			WSACleanup();
 			return 1;
 		}
-		MessageBoxA(0 , "单步" , 0 , 0);
+		MessageBoxA(0 , "回车单步" , "单步" , 0);
 		return EXCEPTION_CONTINUE_EXECUTION;
 	}
 	return EXCEPTION_CONTINUE_EXECUTION;

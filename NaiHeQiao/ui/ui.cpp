@@ -76,16 +76,8 @@ void gui_display(nk_context *ctx){
 	nk_layout_row_dynamic(ctx , 200 , 50);
 #endif // _WIN64
 
-	nk_layout_row_static(ctx , 20 , 90 , 4);
+	nk_layout_row_static(ctx , 20 , 370 , 1);
 
-
-	if(nk_button_label(ctx , "step into")){
-		MessageBox(0 , "等待开发" , 0 , 0);
-	}
-	if(nk_button_label(ctx , "run")){
-		//DeleteBreakpoint(g_context._IP);
-		MessageBox(0 , "等待开发" , 0 , 0);
-	}
 
 	if(nk_button_label(ctx , "inject dll")){
 		if(!nhq_inject_dll()){
@@ -184,9 +176,9 @@ int nhq_gui(void){
 		   NK_WINDOW_MINIMIZABLE | NK_WINDOW_TITLE)){
 
 
-/******************************************************************************************************/
+			/******************************************************************************************************/
 			gui_display(ctx);
-/******************************************************************************************************/
+			/******************************************************************************************************/
 
 		}
 		nk_end(ctx);
@@ -210,7 +202,7 @@ PLUG_EXPORT void CBMENUENTRY(CBTYPE cbType , PLUG_CB_MENUENTRY* info){
 	case MENU_NAIHEQIAO:
 		if(!ButtonAction.enjoy_it){
 			ButtonAction.enjoy_it = true;
-			nhq_gui();		
+			nhq_gui();
 		}
 		break;
 	}

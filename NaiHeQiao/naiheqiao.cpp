@@ -20,7 +20,7 @@ std::vector<duint> GetAddresses(duint start , duint count){
 
 
 void nhq_recv_data(char *context){
-	if(g_SR_count % 2 == 0){
+	if(g_SR_count % 2 == 0 && *context != NULL){
 		memcpy(&g_context , context , sizeof(CONTEXT));
 		nhq_step_over(g_context._IP);
 		//ButtonAction.setp_over = false;
