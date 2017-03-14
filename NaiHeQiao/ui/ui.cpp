@@ -76,7 +76,7 @@ void gui_display(nk_context *ctx){
 	nk_layout_row_dynamic(ctx , 200 , 50);
 #endif // _WIN64
 
-	nk_layout_row_static(ctx , 20 , 370 , 1);
+	nk_layout_row_static(ctx , 20 , 365 , 1);
 
 
 	if(nk_button_label(ctx , "inject dll")){
