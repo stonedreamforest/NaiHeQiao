@@ -139,6 +139,8 @@ int nhq_gui(void){
 						  style | WS_VISIBLE , CW_USEDEFAULT , CW_USEDEFAULT ,
 						  rect.right - rect.left , rect.bottom - rect.top ,
 						  NULL , NULL , wc.hInstance , NULL);
+	SetWindowPos(wnd , HWND_TOPMOST, 0 , 0 , 0 , 0 , SWP_NOSIZE | SWP_NOMOVE);
+
 	dc = GetDC(wnd);
 
 	/* GUI */

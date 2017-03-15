@@ -17,7 +17,7 @@
 
 
 
-LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
+LONG CALLBACK vehnet_anti_anti_debug(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 	int iResult;
 	char recvbuf[DEFAULT_BUFLEN];
 	int recvbuflen = DEFAULT_BUFLEN;
@@ -38,7 +38,7 @@ LONG CALLBACK veh(_In_ PEXCEPTION_POINTERS ExceptionInfo){
 
 DWORD WINAPI ThreadFunc(VOID){
 	init_NHQ_client();
-	AddVectoredExceptionHandler(1 , veh);
+	AddVectoredExceptionHandler(1 , vehnet_anti_anti_debug);
 	return 0;
 }
 
