@@ -1,4 +1,8 @@
 
+![GitHub Releases](https://img.shields.io/github/downloads/stonedreamforest/NaiHeQiao/latest/total?style=flat-square&logo=github)
+![GitHub All Releases](https://img.shields.io/github/downloads/stonedreamforest/NaiHeQiao/total?label=downloads-total&logo=github&style=flat-square)
+
+
 ![screenshot1](https://cloud.githubusercontent.com/assets/16742566/23832955/ae04ea26-0779-11e7-8f36-29fba74fe58a.png)
 
 
